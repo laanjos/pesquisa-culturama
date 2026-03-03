@@ -40,11 +40,11 @@ Pensamento voltado para experiência do usuário
 
 Validação de telefone com expressão regular:
 
-```<input type="tel" pattern="[0-9]{11}" required>
+```<input type="tel" pattern="[0-9]{11}" required>```
 
 Controle de faixa etária:
 
-```<input type="number" min="12" max="100" required>
+```<input type="number" min="12" max="100" required>```
 
 🚀 Próximos Passos
 
