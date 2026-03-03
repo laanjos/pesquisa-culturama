@@ -27,7 +27,7 @@ Validações nativas (required, pattern, min, max)
 Tipos variados de input (text, number, date, email, tel, file)
 
 ***
-##💡 Competências Demonstradas
+## 💡 Competências Demonstradas
 
 Organização e clareza estrutural
 
