@@ -36,7 +36,7 @@
             
             </fieldset> -->
 
-            <fieldset>
+           <!-- <fieldset>
                 <legend>Perfil</legend>
                 <p>Gênero</p>
 
@@ -51,7 +51,7 @@
                 <br>
 
                 <label for="maritalStatus">Estado Civil</label>
-                <select name="maritalStatus">
+                <select name="maritalStatus" id="maritalStatus">
                     <option value="notInformed">Selecione</option>
                     <option value="casado">Casado</option>
                     <option value="solteiro">Solteiro</option>
@@ -62,7 +62,7 @@
                 </select>
                
                 <label for="state">Estado:</label>
-                <select name="state" required>
+                <select name="state" id="state" required>
                     <option value="acre">Acre</option>
                     <option value="alagoas">Alagoas</option>
                     <option value="amapa">Amapá</option>
@@ -97,6 +97,26 @@
 
                 <br>
 
+            </fieldset> -->
+
+            <fieldset>
+                <legend>Hábitos</legend>
+                <p>Redes Sociais</p>
+                <input type="checkbox" name="social" id="social" value="instagram">
+                <label for="social">Instagram</label>
+                <br>
+
+                <input type="checkbox" name="social" id="social" value="facebook">
+                <label for="social">Facebook</label>
+                <br>
+
+                <input type="checkbox" name="social" id="social" value="linkedIn">
+                <label for="social">LinkedIn</label>
+                <br>
+
+                <input type="checkbox" name="social" id="social" value="X">
+                <label for="social">X</label>
+                
             </fieldset>
 
             <button type="submit">Enviar</button>
